@@ -1,5 +1,5 @@
 {
-  description = ''Last.FM API bindings'';
+  description = ''Last.FM API bindings (documentation: https://tandy1000.gitlab.io/lastfm-nim/)'';
 
   inputs.flakeNimbleLib.owner = "riinr";
   inputs.flakeNimbleLib.ref   = "master";
@@ -9,7 +9,7 @@
   
   inputs.src-lastfm-0_8_1.flake = false;
   inputs.src-lastfm-0_8_1.owner = "tandy1000";
-  inputs.src-lastfm-0_8_1.ref   = "refs/tags/0.8.1";
+  inputs.src-lastfm-0_8_1.ref   = "0_8_1";
   inputs.src-lastfm-0_8_1.repo  = "lastfm-nim";
   inputs.src-lastfm-0_8_1.type  = "gitlab";
   
