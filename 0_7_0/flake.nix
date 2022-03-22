@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-lastfm-0_7_0.flake = false;
+  inputs.src-lastfm-0_7_0.ref   = "refs/tags/0.7.0";
   inputs.src-lastfm-0_7_0.owner = "tandy1000";
-  inputs.src-lastfm-0_7_0.ref   = "0_7_0";
   inputs.src-lastfm-0_7_0.repo  = "lastfm-nim";
   inputs.src-lastfm-0_7_0.type  = "gitlab";
   
