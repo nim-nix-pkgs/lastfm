@@ -11,6 +11,7 @@
   inputs.src-lastfm-0_8_0.ref   = "refs/tags/0.8.0";
   inputs.src-lastfm-0_8_0.owner = "tandy1000";
   inputs.src-lastfm-0_8_0.repo  = "lastfm-nim";
+  inputs.src-lastfm-0_8_0.dir   = "";
   inputs.src-lastfm-0_8_0.type  = "gitlab";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
