@@ -1,6 +1,0 @@
-newSyncLastFM	lastfm.html#newSyncLastFM,string,string,string	lastfm: newSyncLastFM(apiKey, apiSecret: string; sessionKey: string = &quot;&quot;): SyncLastFM	
-newAsyncLastFM	lastfm.html#newAsyncLastFM,string,string,string	lastfm: newAsyncLastFM(apiKey, apiSecret: string; sessionKey: string = &quot;&quot;): AsyncLastFM	
-loadAuth	lastfm.html#loadAuth,,string	lastfm: loadAuth(fm: SyncLastFM | AsyncLastFM; sessionKey: string)	
-mobileAuth	lastfm.html#mobileAuth,AsyncLastFM,string,string	lastfm: mobileAuth(fm: AsyncLastFM; username, password: string): owned(Future[void])	
-mobileAuth	lastfm.html#mobileAuth,SyncLastFM,string,string	lastfm: mobileAuth(fm: SyncLastFM; username, password: string)	
-desktopAuth	lastfm.html#desktopAuth,,proc(string)	lastfm: desktopAuth(fm: SyncLastFM | AsyncLastFM;\n            keepGoing: proc (_: string): Future[bool])	

@@ -1,6 +1,0 @@
-AtMost	lastfm/private/tools.html#AtMost	tools: AtMost	
-LastFM	lastfm/private/tools.html#LastFM	tools: LastFM	
-SyncLastFM	lastfm/private/tools.html#SyncLastFM	tools: SyncLastFM	
-AsyncLastFM	lastfm/private/tools.html#AsyncLastFM	tools: AsyncLastFM	
-genUrl	lastfm/private/tools.html#genUrl,,string,varargs[]	tools: genUrl(fm: SyncLastFM | AsyncLastFM; methd: string;\n       strs: varargs[(string, string)]): string	
-genAuthUrl	lastfm/private/tools.html#genAuthUrl,,string,varargs[]	tools: genAuthUrl(fm: SyncLastFM | AsyncLastFM; methd: string;\n           strs: varargs[(string, string)]): string	

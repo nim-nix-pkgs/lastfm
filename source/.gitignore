@@ -1,7 +1,0 @@
-# ignore binary files
-*
-!/**/
-!*.*
-#
-
-keys.json

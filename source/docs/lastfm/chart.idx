@@ -1,6 +1,0 @@
-chartTopArtists	lastfm/chart.html#chartTopArtists,AsyncLastFM,int,int	chart: chartTopArtists(fm: AsyncLastFM; page = 1; limit = 50): Future[JsonNode]	
-chartTopArtists	lastfm/chart.html#chartTopArtists,SyncLastFM,int,int	chart: chartTopArtists(fm: SyncLastFM; page = 1; limit = 50): JsonNode	
-chartTopTags	lastfm/chart.html#chartTopTags,AsyncLastFM,int,int	chart: chartTopTags(fm: AsyncLastFM; page = 1; limit = 50): Future[JsonNode]	
-chartTopTags	lastfm/chart.html#chartTopTags,SyncLastFM,int,int	chart: chartTopTags(fm: SyncLastFM; page = 1; limit = 50): JsonNode	
-chartTopTracks	lastfm/chart.html#chartTopTracks,AsyncLastFM,int,int	chart: chartTopTracks(fm: AsyncLastFM; page = 1; limit = 50): Future[JsonNode]	
-chartTopTracks	lastfm/chart.html#chartTopTracks,SyncLastFM,int,int	chart: chartTopTracks(fm: SyncLastFM; page = 1; limit = 50): JsonNode	
