@@ -1,0 +1,16 @@
+tagInfo	lastfm/tag.html#tagInfo,AsyncLastFM,string	tag: tagInfo(fm: AsyncLastFM; tag: string): Future[JsonNode]	
+tagInfo	lastfm/tag.html#tagInfo,SyncLastFM,string	tag: tagInfo(fm: SyncLastFM; tag: string): JsonNode	
+tagInfo	lastfm/tag.html#tagInfo,AsyncLastFM,string,string	tag: tagInfo(fm: AsyncLastFM; tag, lang: string): Future[JsonNode]	
+tagInfo	lastfm/tag.html#tagInfo,SyncLastFM,string,string	tag: tagInfo(fm: SyncLastFM; tag, lang: string): JsonNode	
+similarTags	lastfm/tag.html#similarTags,AsyncLastFM,string	tag: similarTags(fm: AsyncLastFM; tag: string): Future[JsonNode]	
+similarTags	lastfm/tag.html#similarTags,SyncLastFM,string	tag: similarTags(fm: SyncLastFM; tag: string): JsonNode	
+topAlbumsForTag	lastfm/tag.html#topAlbumsForTag,AsyncLastFM,string,int,int	tag: topAlbumsForTag(fm: AsyncLastFM; tag: string; page = 1; limit = 50): Future[\n    JsonNode]	
+topAlbumsForTag	lastfm/tag.html#topAlbumsForTag,SyncLastFM,string,int,int	tag: topAlbumsForTag(fm: SyncLastFM; tag: string; page = 1; limit = 50): JsonNode	
+topArtistsForTag	lastfm/tag.html#topArtistsForTag,AsyncLastFM,string,int,int	tag: topArtistsForTag(fm: AsyncLastFM; tag: string; page = 1; limit = 50): Future[\n    JsonNode]	
+topArtistsForTag	lastfm/tag.html#topArtistsForTag,SyncLastFM,string,int,int	tag: topArtistsForTag(fm: SyncLastFM; tag: string; page = 1; limit = 50): JsonNode	
+topTracksForTag	lastfm/tag.html#topTracksForTag,AsyncLastFM,string,int,int	tag: topTracksForTag(fm: AsyncLastFM; tag: string; page = 1; limit = 50): Future[\n    JsonNode]	
+topTracksForTag	lastfm/tag.html#topTracksForTag,SyncLastFM,string,int,int	tag: topTracksForTag(fm: SyncLastFM; tag: string; page = 1; limit = 50): JsonNode	
+topTags	lastfm/tag.html#topTags,AsyncLastFM	tag: topTags(fm: AsyncLastFM): Future[JsonNode]	
+topTags	lastfm/tag.html#topTags,SyncLastFM	tag: topTags(fm: SyncLastFM): JsonNode	
+weeklyChartsForTag	lastfm/tag.html#weeklyChartsForTag,AsyncLastFM,string	tag: weeklyChartsForTag(fm: AsyncLastFM; tag: string): Future[JsonNode]	
+weeklyChartsForTag	lastfm/tag.html#weeklyChartsForTag,SyncLastFM,string	tag: weeklyChartsForTag(fm: SyncLastFM; tag: string): JsonNode	

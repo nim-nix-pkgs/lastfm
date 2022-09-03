@@ -1,0 +1,35 @@
+ttArtist	lastfm/user.html#ttArtist	TaggingType.ttArtist	
+ttAlbum	lastfm/user.html#ttAlbum	TaggingType.ttAlbum	
+ttTrack	lastfm/user.html#ttTrack	TaggingType.ttTrack	
+TaggingType	lastfm/user.html#TaggingType	user: TaggingType	
+pOverall	lastfm/user.html#pOverall	Period.pOverall	
+p7day	lastfm/user.html#p7day	Period.p7day	
+p1month	lastfm/user.html#p1month	Period.p1month	
+p3month	lastfm/user.html#p3month	Period.p3month	
+p6month	lastfm/user.html#p6month	Period.p6month	
+p12month	lastfm/user.html#p12month	Period.p12month	
+Period	lastfm/user.html#Period	user: Period	
+userLovedTracks	lastfm/user.html#userLovedTracks,AsyncLastFM,string,int,int	user: userLovedTracks(fm: AsyncLastFM; user: string; page = 1; limit = 50): Future[\n    JsonNode]	
+userLovedTracks	lastfm/user.html#userLovedTracks,SyncLastFM,string,int,int	user: userLovedTracks(fm: SyncLastFM; user: string; page = 1; limit = 50): JsonNode	
+userRecentTracks	lastfm/user.html#userRecentTracks,AsyncLastFM,string,int,int	user: userRecentTracks(fm: AsyncLastFM; user: string; page = 1; limit = 50;\n                 extended = off): Future[JsonNode]	
+userRecentTracks	lastfm/user.html#userRecentTracks,SyncLastFM,string,int,int	user: userRecentTracks(fm: SyncLastFM; user: string; page = 1; limit = 50;\n                 extended = off): JsonNode	
+userPersonalTags	lastfm/user.html#userPersonalTags,AsyncLastFM,string,string,TaggingType,int,int	user: userPersonalTags(fm: AsyncLastFM; user, tag: string; taggingtype: TaggingType;\n                 page = 1; limit = 50): Future[JsonNode]	
+userPersonalTags	lastfm/user.html#userPersonalTags,SyncLastFM,string,string,TaggingType,int,int	user: userPersonalTags(fm: SyncLastFM; user, tag: string; taggingtype: TaggingType;\n                 page = 1; limit = 50): JsonNode	
+userInfo	lastfm/user.html#userInfo,AsyncLastFM,string	user: userInfo(fm: AsyncLastFM; user: string): Future[JsonNode]	
+userInfo	lastfm/user.html#userInfo,SyncLastFM,string	user: userInfo(fm: SyncLastFM; user: string): JsonNode	
+userTopAlbums	lastfm/user.html#userTopAlbums,AsyncLastFM,string,int,int	user: userTopAlbums(fm: AsyncLastFM; user: string; period = pOverall; page = 1;\n              limit = 50): Future[JsonNode]	
+userTopAlbums	lastfm/user.html#userTopAlbums,SyncLastFM,string,int,int	user: userTopAlbums(fm: SyncLastFM; user: string; period = pOverall; page = 1;\n              limit = 50): JsonNode	
+userTopArtists	lastfm/user.html#userTopArtists,AsyncLastFM,string,int,int	user: userTopArtists(fm: AsyncLastFM; user: string; period = pOverall; page = 1;\n               limit = 50): Future[JsonNode]	
+userTopArtists	lastfm/user.html#userTopArtists,SyncLastFM,string,int,int	user: userTopArtists(fm: SyncLastFM; user: string; period = pOverall; page = 1;\n               limit = 50): JsonNode	
+userTopTracks	lastfm/user.html#userTopTracks,AsyncLastFM,string,int,int	user: userTopTracks(fm: AsyncLastFM; user: string; period = pOverall; page = 1;\n              limit = 50): Future[JsonNode]	
+userTopTracks	lastfm/user.html#userTopTracks,SyncLastFM,string,int,int	user: userTopTracks(fm: SyncLastFM; user: string; period = pOverall; page = 1;\n              limit = 50): JsonNode	
+userTopTags	lastfm/user.html#userTopTags,AsyncLastFM,string	user: userTopTags(fm: AsyncLastFM; user: string): Future[JsonNode]	
+userTopTags	lastfm/user.html#userTopTags,SyncLastFM,string	user: userTopTags(fm: SyncLastFM; user: string): JsonNode	
+weeklyAlbumChart	lastfm/user.html#weeklyAlbumChart,AsyncLastFM,string	user: weeklyAlbumChart(fm: AsyncLastFM; user: string): Future[JsonNode]	
+weeklyAlbumChart	lastfm/user.html#weeklyAlbumChart,SyncLastFM,string	user: weeklyAlbumChart(fm: SyncLastFM; user: string): JsonNode	
+weeklyArtistChart	lastfm/user.html#weeklyArtistChart,AsyncLastFM,string	user: weeklyArtistChart(fm: AsyncLastFM; user: string): Future[JsonNode]	
+weeklyArtistChart	lastfm/user.html#weeklyArtistChart,SyncLastFM,string	user: weeklyArtistChart(fm: SyncLastFM; user: string): JsonNode	
+weeklyTrackChart	lastfm/user.html#weeklyTrackChart,AsyncLastFM,string	user: weeklyTrackChart(fm: AsyncLastFM; user: string): Future[JsonNode]	
+weeklyTrackChart	lastfm/user.html#weeklyTrackChart,SyncLastFM,string	user: weeklyTrackChart(fm: SyncLastFM; user: string): JsonNode	
+weeklyChartList	lastfm/user.html#weeklyChartList,AsyncLastFM,string	user: weeklyChartList(fm: AsyncLastFM; user: string): Future[JsonNode]	
+weeklyChartList	lastfm/user.html#weeklyChartList,SyncLastFM,string	user: weeklyChartList(fm: SyncLastFM; user: string): JsonNode	

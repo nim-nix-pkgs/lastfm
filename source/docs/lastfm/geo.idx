@@ -1,0 +1,6 @@
+geoTopArtists	lastfm/geo.html#geoTopArtists,AsyncLastFM,string,int,int	geo: geoTopArtists(fm: AsyncLastFM; country: string; page = 1; limit = 50): Future[\n    JsonNode]	
+geoTopArtists	lastfm/geo.html#geoTopArtists,SyncLastFM,string,int,int	geo: geoTopArtists(fm: SyncLastFM; country: string; page = 1; limit = 50): JsonNode	
+geoTopTracks	lastfm/geo.html#geoTopTracks,AsyncLastFM,string,int,int	geo: geoTopTracks(fm: AsyncLastFM; country: string; page = 1; limit = 50): Future[\n    JsonNode]	
+geoTopTracks	lastfm/geo.html#geoTopTracks,SyncLastFM,string,int,int	geo: geoTopTracks(fm: SyncLastFM; country: string; page = 1; limit = 50): JsonNode	
+geoTopTracks	lastfm/geo.html#geoTopTracks,AsyncLastFM,string,string,int,int	geo: geoTopTracks(fm: AsyncLastFM; country, location: string; page = 1; limit = 50): Future[\n    JsonNode]	
+geoTopTracks	lastfm/geo.html#geoTopTracks,SyncLastFM,string,string,int,int	geo: geoTopTracks(fm: SyncLastFM; country, location: string; page = 1; limit = 50): JsonNode	
